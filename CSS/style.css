@@ -1,0 +1,38 @@
+*{
+    font-family: 'Nuinto',sans-serif;
+     margin:0;
+     padding: 0;
+     text-decoration: none;
+     outline: none;
+      border: none;
+      text-transform: capitalize;
+    
+      
+}
+html{
+
+
+font-size: 62%;
+over-flow-x: hidden;
+scroll-padding-top:5.rem;
+scroll-behaviour:smooth;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+     background: #aaa;
+     padding: 1rem 7%;
+     align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+
+    
+}
+header .logo{
+    color: yellow;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
